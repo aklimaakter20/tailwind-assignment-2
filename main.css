@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+ font-family: "Plus Jakarta Sans", system-ui;
+
+}
+@layer utilities{
+    .nav-link{
+        @apply p-3 text-sm  text-[#072125]  hover:text-[#f44335]  duration-100;
+    }
+    .hero-span{
+        @apply text-[#00FF84] font-bold text-2xl;
+    }
+    .hero-span-p{
+        @apply text-[#2D3142] text-sm font-semibold dark:text-white;
+    }
+    .learn-img{
+        @apply bg-[#F9CCC7] px-3 scroll-py-12 rounded-full;
+    }
+    .tag{
+        @apply border-2 border-[#F44335] px-2 py-1 rounded-full text-xs dark:text-white;
+    }
+    .course{
+        @apply bg-white text-sm uppercase border-2 border-[#232323] px-2 md:px-6 md:py-2 rounded-full;
+    }
+}
