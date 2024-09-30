@@ -10,19 +10,28 @@ body{
     .nav-link{
         @apply p-3 text-sm  text-[#072125]  hover:text-[#f44335]  duration-100;
     }
-    .hero-span{
-        @apply text-[#00FF84] font-bold text-2xl;
+    .btn{
+        @apply text-xs font-bold text-[#F44335] inline-flex items-center gap-2 border-2 border-[#F44335] px-6 py-2 rounded-full hover:text-[#2D3142]  hover:border-[#2D3142] hover:bg-transparent transition duration-500 hover:scale-105
     }
-    .hero-span-p{
-        @apply text-[#2D3142] text-sm font-semibold dark:text-white;
+    .card{
+        @apply text-center bg-[#2D3142] px-4 py-10  rounded-lg text-white hover:bg-[#F44335] transition-all duration-500 hover:scale-110 ; 
     }
-    .learn-img{
-        @apply bg-[#F9CCC7] px-3 scroll-py-12 rounded-full;
+    .card-img{
+        @apply bg-white px-2 py-2 rounded-full mx-auto;
     }
-    .tag{
-        @apply border-2 border-[#F44335] px-2 py-1 rounded-full text-xs dark:text-white;
+    .card-p{
+        @apply mt-4 text-xs leading-6 hover:text-white;
     }
-    .course{
-        @apply bg-white text-sm uppercase border-2 border-[#232323] px-2 md:px-6 md:py-2 rounded-full;
+    .discover-card{
+        @apply hover:bg-[#2D3142] hover:text-white transition duration-500 hover:scale-105 p-5 rounded-lg;
     }
+    .team-single{
+        @apply text-center hover:scale-110 transition duration-500;
+    }
+    .team-name{
+        @apply text-sm font-bold mt-4 mb-2 hover:text-[#f44335] hover:scale-110 transition duration-500;
+    }
+ .footer-h2{
+    @apply text-xs sm:text-sm font-bold mt-6  mb-4 sm:mb-5 sm:mt-5 hover:text-[#f44335] transition duration-500 hover:underline hover:scale-110;
+ }
 }
